@@ -10,6 +10,9 @@
           "/index.html",
           "/*.css",
           "/*.js"
+        ],
+        "urls": [
+          "https://fonts.googleapis.com/**"
         ]
       }
     }, {
@@ -22,6 +25,24 @@
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
       }
+    }, {
+      "name": "pictures",
+      "resources": {
+        "urls": [
+          "/api/users/profile-picture/*"
+        ]
+      }
     }
-  ]
+  ], "dataGroups": [{
+    "name": "mythaistar-dishes",
+    "urls": [
+      "http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/**"
+    ],
+    "cacheConfig": {
+      "maxSize": 100,
+      "maxAge": "1h",
+      "timeout": "10s",
+      "strategy": "freshness"
+    }
+  }]
 }
