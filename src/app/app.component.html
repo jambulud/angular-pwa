@@ -4,12 +4,11 @@
   <h1>
     My Thai Star
   </h1>
-  <h2 style="text-align: center">Here are some dishes available:</h2>
-  <ul>
-    <li *ngFor="let dish of dishes">
-      <h4>{{ dish }}</h4>
-    </li>
-  </ul>
+  <h2 style="text-align: center">Dish recommendation today:</h2>
+  <div class="dish-container">
+    <h4>{{ dish.name }}</h4>
+    <h4>{{ dish.description }}</h4>
+  </div>
 </div>
 
 <router-outlet></router-outlet>

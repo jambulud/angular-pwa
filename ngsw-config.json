@@ -36,7 +36,7 @@
   ], "dataGroups": [{
     "name": "mythaistar-dishes",
     "urls": [
-      "http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/**"
+      "http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/1"
     ],
     "cacheConfig": {
       "maxSize": 100,

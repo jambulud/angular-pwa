@@ -5,22 +5,13 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-  myThaiStarDishes = 'http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/search';
+  myThaiStarDish = 'http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/1';
 
   constructor(private http: HttpClient) { }
 
   getDishes() {
-    return this.http.post(
-      this.myThaiStarDishes,
-      {
-        categories: [],
-        searchBy: '',
-        pageable: {
-          pageSize: 8,
-          pageNumber: 0
-        },
-        maxPrice: null,
-        minLikes: null,
-      });
+    return this.http.get(
+      this.myThaiStarDish,
+    );
   }
 }
