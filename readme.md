@@ -8,7 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![alt text routes](images/routes.png "Routes png");
 
-[I'm an inline-style link](./document.md);
+[Link to document.md](./document.md);
+
+[Link to document.md#anchor](./document.md#anchor);
 
 [Anchor to further help](#help)
 
