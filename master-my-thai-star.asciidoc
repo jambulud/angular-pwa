@@ -1,3 +1,1 @@
-:imagedir: ./my-thai-star.wiki
-
 include::agile[]
