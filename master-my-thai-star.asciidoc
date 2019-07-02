@@ -1,1 +1,1 @@
-include::agile[]
+include::agile-pwa[]
