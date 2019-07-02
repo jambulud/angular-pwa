@@ -1,0 +1,22 @@
+= 1.	My Thai Star – Agile Framework
+
+== 1.1 Team Setup
+
+The team working on the development of the My Thai Star app and the documentation beside the technical development works distributed in various locations across Germany
+
+== 1.2 Scrum events
+
+=== Sprint Planning
+
+Within the My Thai Star project we decided on having one hour Sprint Planning meetings for a four-week Sprints. 
+
+.Screenshot of planningpoker.com during Sprint 1 Planning
+image::my-thai-star.wiki/images/methodology_1.png[Screenshot of planningpoker.com, width="450", link="images/methodology_01.png"]
+
+.mts_datamodel
+image::./images/mts_datamodel.png[mts_datamodel, width="450", link="images/mts_datamodel.png"]
+
+.mts_datamodel
+image::my-thai-star.wiki/images/mts_datamodel.png[mts_datamodel, width="450", link="my-thai-star.wiki/images/mts_datamodel.png"]
+
+During the Sprint Planning meeting the team receives support from Devon colleagues outside the development.
