@@ -2,6 +2,7 @@
 
 == 1.1 Team Setup
 
+asfsdf
 The team working on the development of the My Thai Star app and the documentation beside the technical development works distributed in various locations across Germany
 
 == 1.2 Scrum events
